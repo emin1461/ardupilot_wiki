@@ -207,7 +207,7 @@ This list of commands was inferred from the command handler in
 
 :ref:`MAV_CMD_DO_REPEAT_SERVO <mav_cmd_do_repeat_servo>`
 
-:ref:`MAV_CMD_DO_REPEAT_RELAY <mav_cmd_do_repeat_relay>`
+:ref:`<mav_cmd_do_repeat_relay>`
 
 :ref:`MAV_CMD_DO_DIGICAM_CONFIGURE <mav_cmd_do_digicam_configure>`
 (Camera enabled only)
@@ -2975,7 +2975,7 @@ MAV_CMD_DO_SET_RELAY
 
 Supported by: Copter, Plane, Rover.
 
-Set a `Relay <common-relay>`__ pin's voltage high (on) or low (off).
+Set a :ref:`Relay <common-relay>` pin's voltage high (on) or low (off).
 
 
 **Command parameters**
